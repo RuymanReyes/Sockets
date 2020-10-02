@@ -71,7 +71,7 @@ export class MapaComponent implements OnInit {
 
   crearMapa() {
 
-    (mapboxgl as any).accessToken = 'pk.eyJ1IjoicnV5bWFucmV5ZXMiLCJhIjoiY2tmZTk4cG1zMDJxZzJ6cGVzZmV2ODIxZyJ9.4AYDHNmlJMM54AFZtBxl3g';
+    (mapboxgl as any).accessToken = 'MAP_BOX TOKEN';
 
     this.mapa = new mapboxgl.Map({
       container: 'mapa',
